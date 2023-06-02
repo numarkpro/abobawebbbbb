@@ -1,0 +1,250 @@
+<!doctype html>
+<!--
+Создано Coderov#2144
+Переделано Bublik#9053
+Создано компанией Meigo с ❤️ из Беларуси, Латвии и России.
+
+-->
+<html lang="ru" >
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="icon" type="image/png" href="https://us.cdn02.meigostore.xyz/images/m.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>MeigoHost</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=yes">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="/res/video/bg.mp4" type="video/mp4">
+    </video>
+    <script src="/load.js"></script>
+    <div class="overlay">
+      <div class="overlayDoor"></div>
+      <div class="overlayContent">
+        <div class="loader">
+          <div class="inner"></div>
+        </div>
+        <div class="skip">SKIP</div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="https://us.cdn02.meigostore.xyz/images/m.png" class="bi me-2 mx-5" width="40" height="32" role="img">
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="https://meigo.store" style="text-decoration: underline; text-decoration-color: #00ffff; text-underline-offset: 6px; text-decoration-thickness: 1px;" class="nav-link px-3 text-white">Главная</a></li>
+              <li><a href="https://web.meigo.store" class="nav-link px-3 text-white hover-underline-animation">Web Hosting</a></li>
+              <li><a href="https://vds.meigo.store" class="nav-link px-3 text-white hover-underline-animation">VDS/VPS Hosting</a></li>
+              <li><a href="https://game.meigo.store" class="nav-link px-3 text-white hover-underline-animation">Game Hosting</a></li>
+            </ul> 
+            <div class="text-end">
+              <a href="https://discord.gg/w7QcN5MReH" target="_blank"><button class="button" style="vertical-align:middle"><span>Техподдержка</span></button></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="px-4 py-5 my-5 text-center text-white">
+        <h1 class="display-5 fw-bold">MeigoHost</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Поможет вам начать ваше дело, придумывайте, создавайте, воплощайте, публикуйте, и всё это только на нашем хостинге! <br>Мы предоставляем услуги как и WEB-Хостинга, так и полноценного сервера! 
+            <br>Выберите, закажите и готово!</p>
+        </div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="#service" type="button" class="btn btn-primary btn-lg px-4 gap-3 rounded-pill">Услуги и Тарифы</a>
+          <a href="#plus" type="button" class="btn btn-secondary btn-lg px-4 gap-3 rounded-pill">Преимущества</a>
+        </div>
+      </div>
+      <div class="px-5 pt-2 my-3 text-center text-white border-bottom"></div>
+      <h2 class="text-white text-center pb-3 mb-3 mt-5 ">Какие услуги мы предоставляем</h2>
+      <p><a name="service"></a></p>
+      <div class="container py-4">   
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold"><i class="fa-solid fa-globe"></i> Web Хостинг для вашего сайта</h1>
+            <p class="col-md-8 fs-4">Хотите начать свое дело или вести блог? Это лучший вариант для вас, у нас есть все нужные инструменты и мощности для развёртывания ваших проектов.</p>
+            <a href="https://web.meigo.store" class="mt-3 btn btn-primary btn-lg rounded-pill" type="button">Посмотреть Тарифы</a>
+          </div>
+        </div>
+    
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-dark bg-light rounded-3">
+              <h2 class="fw-bold"><i class="fa-solid fa-server"></i> VDS/VPS Хостинг</h2>
+              <p class="fs-5">Вам нужно больше вычислительных мощностей? Мы предоставляем вам их на очень мощных гиперзвуковых серверах! Виртуальный хостинг или Выделенный Сервер?</p>
+              <a href="https://vds.meigo.store" class="mt-3 btn btn-outline-primary btn-lg rounded-pill" type="button">Посмотреть Тарифы</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2 class="fw-bold"><i class="fa-solid fa-gamepad"></i> Game Хостинг</h2>
+              <p class="fs-5">Хотите создать свой игровой проект или просто поиграть с друзьями в любимых играх? Мы поддерживаем такие игры как: Minecraft, CS:GO, Rust.</p>
+              <a href="https://game.meigo.store" class="mt-3 btn btn-outline-primary btn-lg rounded-pill" type="button">Посмотреть Тарифы</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <p><a name="plus"></a></p>
+        <div class="px-4 pt-2 my-5 text-center text-white border-bottom"></div>
+        <h2 class="text-white text-center pb-3 mt-5">Наши Преимущества</h2>
+  
+        <div class="container text-white text-center">
+        <div class="row">
+          <div class="col">
+            <img src="res/img/1.gif" width="164" height="164">
+            <h4>Мощные Ноды</h4>
+            <p class="">Наши сервера расположены в разных странах мира, имеют на себе процессоры последних поколений и абсолютно точно надежны!</p>
+          </div>
+          <div class="col">
+            <img src="res/img/2.gif" width="164" height="164">
+            <h4>Низкие Цены</h4>
+            <p class="">Мы предоставляем цены, которые выгодные нам и реально адекватные для вас. Убедитесь сами, взяв тестовый период!</p>
+          </div>
+          <div class="col">
+            <img src="res/img/3.gif" width="164" height="164">
+            <h4>Крутая Техподдержка</h4>
+            <p class="">Мы всегда поможем вам с любой проблемой связанной с хостингом и настройкой сайта. Ожидание ответа у нас держится ~10 минутах</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="px-4 pt-2 my-5 text-center text-white border-bottom"></div>
+        <h2 class="text-white text-center pb-3 mb-4 mt-5 ">Тестовый Период</h2>
+        <div class="container py-4 text-center">   
+          <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold mb-3">Хотите протестировать?</h1>
+              <p class="fs-4">Мы всегда идем на встречу нашим пользователям. Вы можете взять тестовый период любой услуги (кроме Dedicated Server) на 3 дня! Для этого достаточно
+                обратиться в техподдержку и уточнить некоторые данные.
+              </p>
+              <button class="mt-3 btn btn-primary btn-lg rounded-pill" type="button">Техподдержка</button>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 pt-2 my-5 text-center text-white border-bottom"></div>
+        <div class="container">
+          <p><a name="faq"></a></p>
+          <h2 class="text-white text-center pb-3">FAQ и Вечные вопросы</h2>
+          <div class="row">
+          <div class="accordion-item mb-2">
+            <h2 class="accordion-header" id="headingOne">
+            <main>
+              <section class="accordion" id="free">
+                <h1 class="title"><a href="#free">🎁 У вас есть бесплатный хостинг?</a></h1>
+                <div class="content">
+                  <div class="wrapper">
+                    <p>
+                      <strong>Да, но он предоставляется в виде <code>тестового периода.</code></strong> Чтобы его получить, нужно обратиться к Техподдержке.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            
+              <section class="accordion" id="price">
+                <h1 class="title"><a href="#price">💎 Почему у нас такие маленькие цены?</a></h1>
+                <div class="content">
+                  <div class="wrapper">
+                    <p>
+                      <strong>Мы любим наших пользователей и предоставляем им адекватные цены.</strong> У большинства хостингов тарифы стоят на 30-50% больше реальной стоимости, а мы в свою очередь исправляем это!
+                    </p>
+                  </div>
+                </div>
+              </section>
+            
+              <section class="accordion" id="problem">
+                <h1 class="title"><a href="#problem">🎧 У меня проблема, что делать?</a></h1>
+                <div class="content">
+                  <div class="wrapper">
+                    <p>
+                      <strong>Писать в <code>техподдержку</code> или <code>чат</code>.</strong> Вы всегда можете создать тикет (в панели) и получить помощь или написать в общий чат в <code><a style="text-decoration: underline;" href="https://discord.gg/UXqyBJAqeV">Discord</a></code>
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="accordion" id="servers">
+                <h1 class="title"><a href="#servers">🔨 А тут точно мощные сервера?</a></h1>
+                <div class="content">
+                  <div class="wrapper">
+                    <p>
+                      <strong>Безусловно да!</strong> Вы всегда можете посмотреть хар-ки всех наших серверов в <code><a style="text-decoration: underline;" href="https://discord.gg/UXqyBJAqeV">Discord</a></code>
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="accordion" id="moreres">
+                <h1 class="title"><a href="#moreres">🤩 А можно больше ресурсов!?</a></h1>
+                <div class="content">
+                  <div class="wrapper">
+                    <p>
+                      <strong>Конечно!</strong> Вы также можете получить больше ресурсов <code>приглашая друзей</code>, <code>учавствуя в конкурсах</code>, подробнее в <code><a style="text-decoration: underline;" href="https://discord.gg/UXqyBJAqeV">Discord</a></code>
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>
+        </div>
+        <p><a name="footer"></a></p>
+        <div class="px-4 pt-3 text-center text-white border-bottom"></div>
+        <div class="bg-dark">
+        <div class="container text-white">
+          <footer class="py-5 text-white">
+            <div class="row text-white">
+              <div class="col-5 text-white">
+                <h5>Секция</h5>
+                <ul class="nav flex-column text-white">
+                  <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-white">Главная</a></li>
+                  <li class="nav-item mb-2"><a href="https://web.meigo.store" class="nav-link p-0 text-white">Web Hosting</a></li>
+                  <li class="nav-item mb-2"><a href="https://vds.meigo.store" class="nav-link p-0 text-white">VDS/VPS Hosting</a></li>
+                  <li class="nav-item mb-2"><a href="https://game.meigo.store" class="nav-link p-0 text-white">Game Hosting</a></li>
+                </ul>
+              </div>
+              <div class="col-4 offset-1">
+                <form>
+                  <h5>Подписывайся на наши соц.сети!</h5>
+                  <p>P.S - Там очень много интересного и конкурсы</p>
+                  <div class="d-flex w-100 gap-2">
+                    
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+        
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+              <ul class="list-unstyled">
+              <li>Made with <i id="heart" onclick="$(this).removeClass('fa-heart fa-beat heart-color-red');$(this).addClass('fa-duotone fa-poo poo-color-rgb');$(this).attr('onclick', '');new Audio('/res/sounds/easteregg1.ogg').play();" class="fa fa-heart fa-beat heart-color-red"></i>, by <br> &copy; <script>document.write(new Date().getFullYear())</script> <code>Meigo, Inc.</code> All rights reserved.</li>
+            </ul>
+              <ul class="list-unstyled d-flex">
+                <li><a style="color: #fff !important;
+                  text-decoration: none;"href="https://discord.gg/UXqyBJAqeV"><i class="ms-3 fa-brands fa-discord fa-xl fa-flag-discord fa-flag-animation"></i></li></a>
+                <li><a style="color: #fff !important;
+                  text-decoration: none;"href="https://vk.com/meigohost"><i class="ms-3 fa-brands fa-vk fa-xl fa-flag-vk fa-flag-animation"></i></li></a>
+              </ul>
+            </div>
+            <div class="text-secondary">
+              <ul class="list-group-item-light list-group">
+               <li class="list-group">Примечания:</li>
+               <li class="list-group">&nbsp;&nbsp; &ast;	Ожидание ответа от поддержки c 22:00 до 10:00 (GMT+3) может быть дольше</li>
+               <li class="list-group">&nbsp;&nbsp; &ast;	По истечению 3 дней тестирования товара он удалится</li>
+               <li class="list-group">&nbsp;&nbsp; &ast;	Мы не несем ответственность за потерянные файлы в пробном периоде</li>
+               
+              </ul>
+            </div>
+          </div>
+          </footer>
+        </div>
+      </div>
+  </body>
+</html>
